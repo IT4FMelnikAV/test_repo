@@ -142,3 +142,6 @@ ALTER TABLE public.listing
 COPY public.listing 
 FROM 'C:\Users\IT4F\Data\Облигации\listing_task.csv' 
 DELIMITER ';' CSV HEADER ENCODING 'WIN 1251';
+
+-- Комментарий:
+-- Как нужно предобработать данные в файлах до загрузки в БД? В настоящий момент возникают ошибки при импорте из-за несоответсвия загружаемых данных формату полей.
